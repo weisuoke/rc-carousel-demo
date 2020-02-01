@@ -1,0 +1,74 @@
+{
+  "name": "rc-carousel-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "jsnext:main": "dist/index.es.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weisuoke/rc-carousel-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weisuoke/rc-carousel-demo/issues"
+  },
+  "homepage": "https://github.com/weisuoke/rc-carousel-demo#readme",
+  "peerDependencies": {
+    "prop-types": "^15.5.4",
+    "react": "^15.0.0 || ^16.0.0",
+    "react-dom": "^15.0.0 || ^16.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@rollup/plugin-commonjs": "^11.0.1",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "@rollup/plugin-url": "^4.0.1",
+    "@svgr/rollup": "^5.1.0",
+    "@types/enzyme": "^3.10.4",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
+    "@types/jest": "^25.1.1",
+    "@types/react": "^16.9.19",
+    "@types/react-dom": "^16.9.5",
+    "@types/styled-components": "^4.4.2",
+    "commitizen": "^4.0.3",
+    "cross-env": "^7.0.0",
+    "cz-conventional-changelog": "^3.1.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.4.4",
+    "husky": "^4.2.1",
+    "jest": "^25.1.0",
+    "jest-css-modules-transform": "^4.0.0",
+    "lint-staged": "^10.0.7",
+    "prettier": "^1.19.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-test-renderer": "^16.12.0",
+    "regenerator-runtime": "^0.13.3",
+    "rollup": "^1.31.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-peer-deps-external": "^2.2.0",
+    "rollup-plugin-postcss": "^2.0.5",
+    "rollup-plugin-typescript2": "^0.25.3",
+    "shelljs": "^0.8.3",
+    "standard-version": "^7.1.0",
+    "styled-components": "^5.0.0",
+    "stylelint": "^13.0.0",
+    "stylelint-config-standard": "^19.0.0",
+    "ts-jest": "^25.1.0",
+    "tslint": "^6.0.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-react": "^4.2.0",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "jest-styled-components": "^7.0.0"
+  }
+}
